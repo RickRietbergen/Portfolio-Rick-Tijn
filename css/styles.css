@@ -8,11 +8,39 @@
     --black: #000000;
 }
 
+/*header, footer*/
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    border-bottom: 1px solid #fff;
+}
+header ul {
+    display: flex;
+}
+header li {
+    list-style: none;
+    padding: 5px;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*all sections*/
 section {
     width: 100%;
     height: 100vh;
+    background-color: var(--black);
 }
 
+/*all reusable classes*/
+/* .class {
+
+} */
+
+/*page*/
 .wrapper {
-    background-color: var(--black);
+    
 }

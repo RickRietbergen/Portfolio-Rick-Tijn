@@ -8,10 +8,16 @@
     
     <title>portfolio Rick | Tijn</title>
 </head>
-<body>
-    <section id="">
-        <div class="wrapper">
 
+    <?php
+        // require_once('php/connect.php');
+        require_once('php/header.php');
+    ?>
+
+<body>
+    <section id="start">
+        <div class="wrapper">
+            
         </div>
     </section>
 </body>
