@@ -15,10 +15,22 @@
     ?>
 
 <body>
-    <section id="start">
-        <div class="wrapper">
-            
-        </div>
-    </section>
+    <div class="wrapper">
+        <section id="start">
+            <div class="box"></div>
+        </section>
+
+        <section id="a">
+            <div class="box" style="background-color: red;"></div>
+        </section>
+
+        <section id="b">
+            <div class="box" style="background-color: aqua;"></div>
+        </section>
+
+        <section id="c">
+            <div class="box" style="background-color: green;"></div>
+        </section>
+    </div>
 </body>
 </html>
